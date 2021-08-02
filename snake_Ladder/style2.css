@@ -1,0 +1,134 @@
+
+body{
+  background-color: lightblue;
+
+}
+#name{
+  text-align: center;
+  font-size: 20px;
+}
+.container{
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.row{
+  margin: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+}
+
+.block{
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border: 1px solid #000;
+  font-size: 14px;
+}
+.red{
+  background: red;
+  color: #fff;
+}
+.green{
+  background: green;
+  color: #fff;
+}
+.yellow{
+  background-color: yellow; 
+  color: black;
+}
+.pink{
+  background-color: pink;
+  color: black;
+}
+.player--active {
+  background-color: skyblue;
+  border:
+  3px solid black;
+}
+.pl{
+    flex: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.75s;
+    background-color: rgba(255,255,255,.5);
+    box-shadow: 1px 1px 5px 2px black;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 4px;
+}
+.dice{
+  height: 80px;
+  width: 80px;
+  border: 2px solid black;
+  margin-top: 30px;
+  background-color: pink;
+}
+.btn{
+  background-color: white;
+  margin-top: 50px;
+  padding: 15px;
+  font-size: 25px;
+  border: none;
+  border-radius: 33px;
+}
+.btn:hover{
+  box-shadow: 1px 1px 5px 2px black;
+}
+.yellow-circle{
+  background-color: yellow;
+  border-radius: 80px;
+  height: 50px;
+  width: 50px;
+}
+.pink-circle{
+  background-color: pink;
+  border-radius: 80px;
+  height: 50px;
+  width: 50px;
+}
+#wonP1, #wonP2{
+  display: none;
+}
+#gameOver{
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  display: none;
+}
+/*media queries*/
+@media  (max-width: 800px){
+
+   .container{
+    width: fit-content;
+  }
+  .row{
+    margin: 0px;
+  }
+  .block{
+    width: 20px;
+    height: 20px;
+    font-size: 5px;
+}
+.dice{
+  margin-top: 5px;
+  height: 30px;
+    width: 30px;
+}
+.pl{
+  padding: 5px;
+  font-size: 15px;
+}
+.btn{
+  margin-top: 5px;
+  padding: 5px;
+  font-size: 5px;
+ }
+}
