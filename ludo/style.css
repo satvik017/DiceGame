@@ -176,7 +176,7 @@ footer{
   main {
     position: relative;
     width: 40rem;
-    height: 60rem;
+    height: 50rem;
     background-color: rgba(255, 255, 255, 0.35);
     backdrop-filter: blur(200px);
     filter: blur();
@@ -215,7 +215,7 @@ footer{
 .btn {
   position: absolute;
   left: 50%;
-  font-size: 20px;
+  font-size: 14px;
   text-transform: uppercase;
   cursor: pointer;
   font-weight: 400;
@@ -240,7 +240,7 @@ footer{
   top: 1rem;
 }
 .btn--roll {
-  top: 35rem;
+  top: 30rem;
 }
 .btn--hold {
   top: 39.1rem;
@@ -248,7 +248,7 @@ footer{
 .dice {
   position: absolute;
   left: 50%;
-  top: 22.5rem;
+  top: 17.5rem;
   transform: translateX(-50%);
   height: 10rem;
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
@@ -263,6 +263,7 @@ footer{
   text-align: center;
   transition: all 0.75s;
   margin-bottom: 20px;
+  /*top: 20px;*/
 }
 
 .current-label {
@@ -277,3 +278,4 @@ footer{
 }
 
 }
+
