@@ -116,11 +116,13 @@ body{
     width: 20px;
     height: 20px;
     font-size: 5px;
+    border: 1px solid black;
 }
 .dice{
   margin-top: 5px;
   height: 30px;
-    width: 30px;
+  width: 30px;
+  border: 1px solid black;
 }
 .pl{
   padding: 5px;
@@ -131,4 +133,8 @@ body{
   padding: 5px;
   font-size: 5px;
  }
+.yellow-circle, .pink-circle{
+  heigth: 35px;
+  width: 35px;
+  }
 }
