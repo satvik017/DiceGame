@@ -118,6 +118,7 @@ btnRoll.addEventListener('click', function(){
 	let get =Math.trunc((Math.random() * 6)+1);
 
 	dice.src = `dice-${get}.png`;
+	dice.style.display = "block";
 	console.log(get);
 
 	if(activePlayer == 1){
